@@ -34,11 +34,22 @@
 }
 
 img {
-    height: 300px;
-    width: 300px;
+    max-width: 95%;
+    max-height: 90%;
 }
 
 .space_between {
     display: flex;
     justify-content: space-between;
+}
+.column_img img {
+    width: 300px;
+    height: 350px;
+    border-radius: 70%;
+    shape-outside: ellipse();
+    margin-left: 40px;
+    float: right;
+}
+body {
+    background-color: green;
 }
