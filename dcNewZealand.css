@@ -1,0 +1,125 @@
+.main_content {
+    display: flex;
+    /* background-color:rgb(52, 107, 158) */
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 2rem;
+    border: 15px black solid;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 75px;
+    background-color:rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+.headline{
+    font-size: large;
+    font-weight: bold;
+    color:rgb(250, 246, 246);
+    
+}
+
+.copyright {
+    text-align: center;
+}
+
+.headline_nav_img {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-height: 200px;
+}
+
+.headerbackground {
+    width: 50vw;
+    height: 200px;
+    grid-column:1;
+    grid-row:1;
+    object-fit:cover;
+    
+}
+
+.flag{
+    width:300px;
+    height:100%;
+    grid-column:1;
+    grid-row:1;
+    object-fit:cover;
+    justify-self:left;
+    align-self:normal;
+    opacity:100%;
+}
+
+.headline_img {
+    display:grid;
+   
+    grid-template-columns: 1fr;
+    
+}
+
+.column_break {
+    border-bottom: solid black 5px;
+}
+
+p>img {
+        float:left;
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius:10px;
+        margin-right:10px;
+        /* border:solid black 7px; */
+        
+      }
+
+
+img {
+    float:left;
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+    border-radius:5px;
+    
+  }
+
+.space_between {
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    background-color:rgba(18, 109, 228, 0.75);
+
+}
+
+.topnav {
+    /* background-color: rgba(18, 109, 228,0.01); */
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #05010f;
+    color: white;
+  }
