@@ -7,9 +7,8 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 100px;
 }
-
 
 .column {
     display: flex;
@@ -32,8 +31,6 @@ h1 {
     padding: 10px;
     margin: 20px;
 }
-
-
 
 .copyright {
     text-align: center;
@@ -76,4 +73,44 @@ img {
     margin-right: auto;
     height: 80%;
     max-width: 80%;
+}
+
+.topnav {
+    /* background-color: rgba(18, 109, 228,0.01); */
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: red;
+    color: white;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: green;
+    color: white;
+  }
+
+.G2SLogo img {
+    border: none;
+    height: 125px;
+} 
+
+.nameLogo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
 }
