@@ -1,3 +1,19 @@
+.headline_img{
+    display: flex;
+    justify-content: center;
+}
+.headline {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.headline img {
+    max-height: 200px;
+    max-width: 100%;
+    margin-top: -30%;
+}
+
 .main_content {
     display: flex;
 }
@@ -7,10 +23,11 @@
     flex-direction: column;
     flex: 1;
     padding: 2rem;
-    border: 2px black solid;
+    border: 15px black solid;
     border-radius: 15px;
     padding: 10px;
-    margin: 10px;
+    margin: 55px;
+    font-size: x-large;
 }
 
 .copyright {
@@ -25,8 +42,8 @@
 }
 
 .headline_img img {
-    width: 100%;
-    height: 50%;
+    width: 5000%;
+    height: 100%;
 }
 
 .column_break {
@@ -53,3 +70,30 @@ img {
 body {
     background-color: green;
 }
+.topnav {
+    /* background-color: rgba(18, 109, 228,0.01); */
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #05010f;
+    color: white;
+  }
