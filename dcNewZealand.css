@@ -16,11 +16,29 @@
     font-weight: bold;
 
 }
+
+.column h2{
+    font-size: 28px;
+    font-color:rgba(18, 109, 228);
+}
 .headline{
+    display:flex;
+    flex-direction:column;
     font-size: large;
     font-weight: bold;
     color:rgb(250, 246, 246);
     
+}
+
+.headline h1{
+    text-align:center;
+}
+
+.headline img{
+    width:50%;
+    height:100px;
+    flex:auto;
+    margin-left:20%;
 }
 
 .copyright {
@@ -115,11 +133,11 @@ body{
   /* Change the color of links on hover */
   .topnav a:hover {
     background-color: #ddd;
-    color: black;
+    color: rgb(3, 3, 3);
   }
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #05010f;
+    background-color: #050505;
     color: white;
   }
