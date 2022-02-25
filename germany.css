@@ -1,5 +1,5 @@
 body {
-background-color: whitesmoke;
+background-color: white
 }
 
 .main_content {
@@ -17,15 +17,16 @@ background-color: whitesmoke;
     margin: 50px;
     margin-top: 20px;
 }
-
+    
 .column img {
     width: 100%;
     height: 95%;
-    border: black 3px ridge;
+    border: black 3px solid;
     border-radius: 10px;
     max-height: 350px;
     min-height: 20em;
     min-width: 20em;
+    margin-bottom: 10px;
 }
 
 .copyright {
